@@ -4,24 +4,25 @@ const Styles = StyleSheet.create({
     container: {
         marginTop: 150,
         marginHorizontal: 30,
-
     },
     title: {
         fontSize: 30,
-
+        fontWeight:'bold',
     },
     textInput: {
         width: '100%',
-        height: 50,
+        height: 70,
         borderRadius: 10,
         borderWidth: 2,
         borderColor: "#01579B",
         marginBottom: 20,
+        padding: 10,
+        fontSize: 20,
     },
     pressable: {
-        width: '70%',
+        width: '80%',
         justifyContent: "center",
-        height: 40,
+        height: 50,
         alignItems:'center',
         borderWidth: 2,
         backgroundColor:"#01579B",
@@ -31,8 +32,9 @@ const Styles = StyleSheet.create({
 
     },
     pressableText: {
-        fontSize: 20,
-        color:'white'
+        fontSize: 25,
+        color:'white',
+        fontWeight: 'bold'
 
     }
 

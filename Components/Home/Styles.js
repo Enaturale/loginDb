@@ -8,19 +8,20 @@ const Styles = StyleSheet.create({
     },
     pressable:{
         width: 200,
-        height: 50,
+        height: 60,
         borderWidth:1,
         justifyContent:'center',
         alignItems:'center',
         borderBottomEndRadius: 20,
         borderTopLeftRadius: 20,
         backgroundColor:'#01579B',
-        borderColor:'white'
+        borderColor:'#01579B',
 
     },
     pressableText:{
         fontSize: 20,
-        color:"white"
+        color:"white",
+        fontWeight:'bold',
     },
     background:{
         flex: 1,
@@ -31,7 +32,8 @@ const Styles = StyleSheet.create({
         fontStyle:'italic',
         fontWeight:'bold',
         marginBottom:10,
-        fontSize: 15,
+        fontSize: 18,
+        color:'black',
     }
 
 })

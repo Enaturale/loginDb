@@ -6,8 +6,8 @@ import Styles from './Styles'
 const image = (require('../../assets/Images/doctor.jpg'))
 
 const Home = ({ navigation }) => {
-     
-    const gotoLogin =()=>{
+
+    const gotoLogin = () => {
         return navigation.navigate("Login")
     }
 
@@ -15,8 +15,10 @@ const Home = ({ navigation }) => {
         <View style={Styles.container}>
             <ImageBackground source={image} style={Styles.background} resizeMode='cover'>
 
-                <View style={{marginTop: -250, marginHorizontal: 20,}}>
-                    <Text style={Styles.title}>Would you like to talk to a Doctor?</Text>
+                <View style={{ marginTop: -290, marginHorizontal: 20, }}>
+                    <View style={{width: 180,}}>
+                        <Text style={Styles.title}>Would you like to talk to a Doctor?</Text>
+                    </View>
                     <Pressable style={Styles.pressable} onPress={gotoLogin}>
                         <Text style={Styles.pressableText}>Yes, Please.</Text>
                     </Pressable>
