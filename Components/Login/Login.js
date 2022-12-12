@@ -25,7 +25,7 @@ const Login = () => {
             // console.log("email => ", email);
             // console.log("password => ", password);
 
-            const {data} = await Axios.post("http://192.168.100.27/LoginReactNative/api/Login.php", {
+            const {data} = await Axios.post("http://192.168.1.188/LoginReactNative/api/Login.php", {
                 email: email,
                 password: password,
             });

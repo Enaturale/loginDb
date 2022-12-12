@@ -54,7 +54,7 @@ const Signup = () => {
             alert("You password should not include space")
         }
         else{
-            const {data} = await Axios.post("http://192.168.100.27/LoginReactNative/api/SignUp.php", {
+            const {data} = await Axios.post("http://192.168.1.188/LoginReactNative/api/SignUp.php", {
                 email: email,
                 password: password,
                 // confirmPassword: conPassword,
